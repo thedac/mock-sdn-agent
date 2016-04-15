@@ -1,0 +1,13 @@
+name: sdn-agent
+summary:  SDN Agent Charm
+maintainer: David Ames <david.ames@canonical.com>
+description: |
+  Mock SDN Agent Charm
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - openstack
+subordinate: false
+requires:
+  identity-credentials:
+    interface: keystone-credentials
